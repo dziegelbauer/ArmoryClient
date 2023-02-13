@@ -16,7 +16,6 @@ public class MainViewModel
 
     public ISearchViewModel SearchViewModel { get; set; }
 
-
     public async Task LoadAsync()
     {
         await SearchViewModel.LoadAsync();

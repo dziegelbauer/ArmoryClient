@@ -24,7 +24,8 @@
         <ComboBox ItemsSource="{Binding RealmList}" Margin="10 10 0 0" 
                   DisplayMemberPath="Name" SelectedValuePath="Id" FontSize="18" Width="180"/>
         <TextBlock Text="Character" FontSize="18" Margin="10 10 0 0"/>
-        <TextBox FontSize="18" Margin="10 10 0 0" Width="180" HorizontalAlignment="Left"/>
+        <TextBox Text="{Binding SearchString,Mode=TwoWay}" FontSize="18" 
+                 Margin="10 10 0 0" Width="180" HorizontalAlignment="Left"/>
         <Button Content="Search" FontSize="18" Margin="10 10 0 0"/>
     </StackPanel>
 </UserControl>
