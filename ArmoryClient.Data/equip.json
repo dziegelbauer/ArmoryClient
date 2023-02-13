@@ -1,0 +1,3645 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/thrall/naelran/equipment?namespace=profile-us"
+    }
+  },
+  "character": {
+    "key": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/thrall/naelran?namespace=profile-us"
+    },
+    "name": "Naelran",
+    "id": 129423703,
+    "realm": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/realm/1263?namespace=dynamic-us"
+      },
+      "name": "Thrall",
+      "id": 1263,
+      "slug": "thrall"
+    }
+  },
+  "equipped_items": [
+    {
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/134447?namespace=static-10.0.5_47621-us"
+        },
+        "id": 134447
+      },
+      "sockets": [
+        {
+          "socket_type": {
+            "type": "PRISMATIC",
+            "name": "Prismatic Socket"
+          },
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/192932?namespace=static-10.0.5_47621-us"
+            },
+            "name": "Radiant Malygite",
+            "id": 192932
+          },
+          "display_string": "+70 Versatility and +33 Critical Strike ",
+          "media": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/media/item/192932?namespace=static-10.0.5_47621-us"
+            },
+            "id": 192932
+          }
+        }
+      ],
+      "slot": {
+        "type": "HEAD",
+        "name": "Head"
+      },
+      "quantity": 1,
+      "context": 35,
+      "bonus_list": [
+        8970,
+        7977,
+        6652,
+        7935,
+        8822,
+        8820,
+        9144,
+        3284,
+        8767
+      ],
+      "quality": {
+        "type": "EPIC",
+        "name": "Epic"
+      },
+      "name": "Veil of Unseen Strikes",
+      "modified_appearance_id": 80072,
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/134447?namespace=static-10.0.5_47621-us"
+        },
+        "id": 134447
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-10.0.5_47621-us"
+        },
+        "name": "Armor",
+        "id": 4
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-10.0.5_47621-us"
+        },
+        "name": "Leather",
+        "id": 2
+      },
+      "inventory_type": {
+        "type": "HEAD",
+        "name": "Head"
+      },
+      "binding": {
+        "type": "ON_ACQUIRE",
+        "name": "Binds when picked up"
+      },
+      "armor": {
+        "value": 380,
+        "display": {
+          "display_string": "380 Armor",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      "stats": [
+        {
+          "type": {
+            "type": "AGILITY",
+            "name": "Agility"
+          },
+          "value": 429,
+          "display": {
+            "display_string": "+429 Agility",
+            "color": {
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 1
+            }
+          }
+        },
+        {
+          "type": {
+            "type": "INTELLECT",
+            "name": "Intellect"
+          },
+          "value": 429,
+          "is_negated": true,
+          "display": {
+            "display_string": "+429 Intellect",
+            "color": {
+              "r": 128,
+              "g": 128,
+              "b": 128,
+              "a": 1
+            }
+          }
+        },
+        {
+          "type": {
+            "type": "STAMINA",
+            "name": "Stamina"
+          },
+          "value": 1083,
+          "display": {
+            "display_string": "+1,083 Stamina",
+            "color": {
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 1
+            }
+          }
+        },
+        {
+          "type": {
+            "type": "VERSATILITY",
+            "name": "Versatility"
+          },
+          "value": 250,
+          "is_equip_bonus": true,
+          "display": {
+            "display_string": "+250 Versatility",
+            "color": {
+              "r": 0,
+              "g": 255,
+              "b": 0,
+              "a": 1
+            }
+          }
+        },
+        {
+          "type": {
+            "type": "MASTERY_RATING",
+            "name": "Mastery"
+          },
+          "value": 464,
+          "is_equip_bonus": true,
+          "display": {
+            "display_string": "+464 Mastery",
+            "color": {
+              "r": 0,
+              "g": 255,
+              "b": 0,
+              "a": 1
+            }
+          }
+        }
+      ],
+      "sell_price": {
+        "value": 630662,
+        "display_strings": {
+          "header": "Sell Price:",
+          "gold": "63",
+          "silver": "6",
+          "copper": "62"
+        }
+      },
+      "requirements": {
+        "level": {
+          "value": 40,
+          "display_string": "Requires Level 40"
+        }
+      },
+      "level": {
+        "value": 405,
+        "display_string": "Item Level 405"
+      },
+      "transmog": {
+        "item": {
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item/134110?namespace=static-10.0.5_47621-us"
+          },
+          "name": "Hidden Helm",
+          "id": 134110
+        },
+        "display_string": "Transmogrified to:\nHidden Helm",
+        "item_modified_appearance_id": 77344
+      },
+      "durability": {
+        "value": 99,
+        "display_string": "Durability 99 / 100"
+      },
+      "name_description": {
+        "display_string": "Mythic",
+        "color": {
+          "r": 0,
+          "g": 255,
+          "b": 0,
+          "a": 1
+        }
+      }
+    },
+    {
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/193001?namespace=static-10.0.5_47621-us"
+        },
+        "id": 193001
+      },
+      "sockets": [
+        {
+          "socket_type": {
+            "type": "PRISMATIC",
+            "name": "Prismatic Socket"
+          },
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/192990?namespace=static-10.0.5_47621-us"
+            },
+            "name": "Resplendent Illimited Diamond",
+            "id": 192990
+          },
+          "display_string": "+64 Primary Stat and +56 Versatility ",
+          "media": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/media/item/192990?namespace=static-10.0.5_47621-us"
+            },
+            "id": 192990
+          }
+        },
+        {
+          "socket_type": {
+            "type": "PRISMATIC",
+            "name": "Prismatic Socket"
+          },
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/192932?namespace=static-10.0.5_47621-us"
+            },
+            "name": "Radiant Malygite",
+            "id": 192932
+          },
+          "display_string": "+70 Versatility and +33 Critical Strike ",
+          "media": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/media/item/192932?namespace=static-10.0.5_47621-us"
+            },
+            "id": 192932
+          }
+        },
+        {
+          "socket_type": {
+            "type": "PRISMATIC",
+            "name": "Prismatic Socket"
+          },
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/192932?namespace=static-10.0.5_47621-us"
+            },
+            "name": "Radiant Malygite",
+            "id": 192932
+          },
+          "display_string": "+70 Versatility and +33 Critical Strike ",
+          "media": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/media/item/192932?namespace=static-10.0.5_47621-us"
+            },
+            "id": 192932
+          }
+        }
+      ],
+      "slot": {
+        "type": "NECK",
+        "name": "Neck"
+      },
+      "quantity": 1,
+      "context": 13,
+      "bonus_list": [
+        8836,
+        8840,
+        8902,
+        8960,
+        8784,
+        8782,
+        8802,
+        8795,
+        8845
+      ],
+      "quality": {
+        "type": "EPIC",
+        "name": "Epic"
+      },
+      "name": "Elemental Lariat",
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/193001?namespace=static-10.0.5_47621-us"
+        },
+        "id": 193001
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-10.0.5_47621-us"
+        },
+        "name": "Armor",
+        "id": 4
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-10.0.5_47621-us"
+        },
+        "name": "Miscellaneous",
+        "id": 0
+      },
+      "inventory_type": {
+        "type": "NECK",
+        "name": "Neck"
+      },
+      "binding": {
+        "type": "ON_ACQUIRE",
+        "name": "Binds when picked up"
+      },
+      "limit_category": "Unique-Equipped: Embellished (2)",
+      "stats": [
+        {
+          "type": {
+            "type": "STAMINA",
+            "name": "Stamina"
+          },
+          "value": 609,
+          "display": {
+            "display_string": "+609 Stamina",
+            "color": {
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 1
+            }
+          }
+        },
+        {
+          "type": {
+            "type": "CRIT_RATING",
+            "name": "Critical Strike"
+          },
+          "value": 536,
+          "is_equip_bonus": true,
+          "display": {
+            "display_string": "+536 Critical Strike",
+            "color": {
+              "r": 0,
+              "g": 255,
+              "b": 0,
+              "a": 1
+            }
+          }
+        },
+        {
+          "type": {
+            "type": "VERSATILITY",
+            "name": "Versatility"
+          },
+          "value": 536,
+          "is_equip_bonus": true,
+          "display": {
+            "display_string": "+536 Versatility",
+            "color": {
+              "r": 0,
+              "g": 255,
+              "b": 0,
+              "a": 1
+            }
+          }
+        }
+      ],
+      "spells": [
+        {
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/375323?namespace=static-10.0.5_47621-us"
+            },
+            "name": "Elemental Lariat",
+            "id": 375323
+          },
+          "description": "Equip: Your spells and abilities have a chance to empower one of your socketed elemental gems, granting 467 of their associated stat for 12 sec."
+        }
+      ],
+      "sell_price": {
+        "value": 369605,
+        "display_strings": {
+          "header": "Sell Price:",
+          "gold": "36",
+          "silver": "96",
+          "copper": "5"
+        }
+      },
+      "level": {
+        "value": 405,
+        "display_string": "Item Level 405"
+      },
+      "is_subclass_hidden": true,
+      "modified_crafting_stat": [
+        {
+          "id": 40,
+          "type": "VERSATILITY",
+          "name": "Versatility"
+        },
+        {
+          "id": 49,
+          "type": "MASTERY_RATING",
+          "name": "Mastery"
+        }
+      ]
+    },
+    {
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/200365?namespace=static-10.0.5_47621-us"
+        },
+        "id": 200365
+      },
+      "slot": {
+        "type": "SHOULDER",
+        "name": "Shoulders"
+      },
+      "quantity": 1,
+      "context": 35,
+      "bonus_list": [
+        6652,
+        8826,
+        7977,
+        8972,
+        1485,
+        8767
+      ],
+      "quality": {
+        "type": "EPIC",
+        "name": "Epic"
+      },
+      "name": "Mantle of the Waking Fist",
+      "modified_appearance_id": 182649,
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/200365?namespace=static-10.0.5_47621-us"
+        },
+        "id": 200365
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-10.0.5_47621-us"
+        },
+        "name": "Armor",
+        "id": 4
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-10.0.5_47621-us"
+        },
+        "name": "Leather",
+        "id": 2
+      },
+      "inventory_type": {
+        "type": "SHOULDER",
+        "name": "Shoulder"
+      },
+      "binding": {
+        "type": "ON_ACQUIRE",
+        "name": "Binds when picked up"
+      },
+      "armor": {
+        "value": 361,
+        "display": {
+          "display_string": "361 Armor",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      "stats": [
+        {
+          "type": {
+            "type": "AGILITY",
+            "name": "Agility"
+          },
+          "value": 340,
+          "display": {
+            "display_string": "+340 Agility",
+            "color": {
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 1
+            }
+          }
+        },
+        {
+          "type": {
+            "type": "INTELLECT",
+            "name": "Intellect"
+          },
+          "value": 340,
+          "is_negated": true,
+          "display": {
+            "display_string": "+340 Intellect",
+            "color": {
+              "r": 128,
+              "g": 128,
+              "b": 128,
+              "a": 1
+            }
+          }
+        },
+        {
+          "type": {
+            "type": "STAMINA",
+            "name": "Stamina"
+          },
+          "value": 882,
+          "display": {
+            "display_string": "+882 Stamina",
+            "color": {
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 1
+            }
+          }
+        },
+        {
+          "type": {
+            "type": "CRIT_RATING",
+            "name": "Critical Strike"
+          },
+          "value": 363,
+          "is_equip_bonus": true,
+          "display": {
+            "display_string": "+363 Critical Strike",
+            "color": {
+              "r": 0,
+              "g": 255,
+              "b": 0,
+              "a": 1
+            }
+          }
+        },
+        {
+          "type": {
+            "type": "HASTE_RATING",
+            "name": "Haste"
+          },
+          "value": 190,
+          "is_equip_bonus": true,
+          "display": {
+            "display_string": "+190 Haste",
+            "color": {
+              "r": 0,
+              "g": 255,
+              "b": 0,
+              "a": 1
+            }
+          }
+        }
+      ],
+      "sell_price": {
+        "value": 632080,
+        "display_strings": {
+          "header": "Sell Price:",
+          "gold": "63",
+          "silver": "20",
+          "copper": "80"
+        }
+      },
+      "requirements": {
+        "level": {
+          "value": 70,
+          "display_string": "Requires Level 70"
+        },
+        "playable_classes": {
+          "links": [
+            {
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/playable-class/10?namespace=static-10.0.5_47621-us"
+              },
+              "name": "Monk",
+              "id": 10
+            }
+          ],
+          "display_string": "Classes: Monk"
+        }
+      },
+      "set": {
+        "item_set": {
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-set/1532?namespace=static-10.0.5_47621-us"
+          },
+          "name": "Wrappings of the Waking Fist",
+          "id": 1532
+        },
+        "items": [
+          {
+            "item": {
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/item/200360?namespace=static-10.0.5_47621-us"
+              },
+              "name": "Chestwrap of the Waking Fist",
+              "id": 200360
+            },
+            "is_equipped": true
+          },
+          {
+            "item": {
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/item/200362?namespace=static-10.0.5_47621-us"
+              },
+              "name": "Palms of the Waking Fist",
+              "id": 200362
+            },
+            "is_equipped": true
+          },
+          {
+            "item": {
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/item/200363?namespace=static-10.0.5_47621-us"
+              },
+              "name": "Gaze of the Waking Fist",
+              "id": 200363
+            }
+          },
+          {
+            "item": {
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/item/200364?namespace=static-10.0.5_47621-us"
+              },
+              "name": "Legguards of the Waking Fist",
+              "id": 200364
+            },
+            "is_equipped": true
+          },
+          {
+            "item": {
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/item/200365?namespace=static-10.0.5_47621-us"
+              },
+              "name": "Mantle of the Waking Fist",
+              "id": 200365
+            },
+            "is_equipped": true
+          }
+        ],
+        "effects": [
+          {
+            "display_string": "Set: Hitting an enemy with Tiger Palm or Spinning Crane Kick grants Brewmaster's Rhythm, increasing damage dealt and reducing damage taken by 1% for 15 sec, stacking up to 4 times.",
+            "required_count": 2,
+            "is_active": true
+          },
+          {
+            "display_string": "Set: For each stack of Brewmaster's Rhythm, Purifying Brew clears 3% more of your damage delayed with Stagger.",
+            "required_count": 4,
+            "is_active": true
+          }
+        ],
+        "display_string": "Wrappings of the Waking Fist (4/5)"
+      },
+      "level": {
+        "value": 411,
+        "display_string": "Item Level 411"
+      },
+      "transmog": {
+        "item": {
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item/188914?namespace=static-10.0.5_47621-us"
+          },
+          "name": "Tassels of the Grand Upwelling",
+          "id": 188914
+        },
+        "display_string": "Transmogrified to:\nTassels of the Grand Upwelling",
+        "item_modified_appearance_id": 166316
+      },
+      "durability": {
+        "value": 99,
+        "display_string": "Durability 99 / 100"
+      },
+      "name_description": {
+        "display_string": "Mythic",
+        "color": {
+          "r": 0,
+          "g": 255,
+          "b": 0,
+          "a": 1
+        }
+      }
+    },
+    {
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/98543?namespace=static-10.0.5_47621-us"
+        },
+        "id": 98543
+      },
+      "slot": {
+        "type": "SHIRT",
+        "name": "Shirt"
+      },
+      "quantity": 1,
+      "quality": {
+        "type": "EPIC",
+        "name": "Epic"
+      },
+      "name": "Wraps of the Blood-Soaked Brawler",
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/98543?namespace=static-10.0.5_47621-us"
+        },
+        "id": 98543
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-10.0.5_47621-us"
+        },
+        "name": "Armor",
+        "id": 4
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-10.0.5_47621-us"
+        },
+        "name": "Miscellaneous",
+        "id": 0
+      },
+      "inventory_type": {
+        "type": "BODY",
+        "name": "Shirt"
+      },
+      "binding": {
+        "type": "ON_ACQUIRE",
+        "name": "Binds when picked up"
+      },
+      "unique_equipped": "Unique",
+      "spells": [
+        {
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/143625?namespace=static-10.0.5_47621-us"
+            },
+            "name": "Brawling Champion",
+            "id": 143625
+          },
+          "description": "Equip: Show off your truly epic brawling accomplishments."
+        }
+      ],
+      "level": {
+        "value": 1,
+        "display_string": "Item Level 1"
+      },
+      "transmog": {
+        "item": {
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item/142503?namespace=static-10.0.5_47621-us"
+          },
+          "name": "Hidden Shirt",
+          "id": 142503
+        },
+        "display_string": "Transmogrified to:\nHidden Shirt",
+        "item_modified_appearance_id": 83202
+      },
+      "is_subclass_hidden": true
+    },
+    {
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/200360?namespace=static-10.0.5_47621-us"
+        },
+        "id": 200360
+      },
+      "enchantments": [
+        {
+          "display_string": "Enchanted: Accelerated Agility |A:Professions-Icon-Quality-Tier3-Small:20:20|a",
+          "enchantment_id": 6616,
+          "enchantment_slot": {
+            "id": 0,
+            "type": "PERMANENT"
+          }
+        }
+      ],
+      "slot": {
+        "type": "CHEST",
+        "name": "Chest"
+      },
+      "quantity": 1,
+      "context": 16,
+      "bonus_list": [
+        40,
+        8822,
+        7977,
+        8820,
+        8830,
+        8972,
+        1488,
+        8767
+      ],
+      "quality": {
+        "type": "EPIC",
+        "name": "Epic"
+      },
+      "name": "Chestwrap of the Waking Fist",
+      "modified_appearance_id": 182629,
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/200360?namespace=static-10.0.5_47621-us"
+        },
+        "id": 200360
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-10.0.5_47621-us"
+        },
+        "name": "Armor",
+        "id": 4
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-10.0.5_47621-us"
+        },
+        "name": "Leather",
+        "id": 2
+      },
+      "inventory_type": {
+        "type": "CHEST",
+        "name": "Chest"
+      },
+      "binding": {
+        "type": "ON_ACQUIRE",
+        "name": "Binds when picked up"
+      },
+      "armor": {
+        "value": 525,
+        "display": {
+          "display_string": "525 Armor",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      "stats": [
+        {
+          "type": {
+            "type": "AGILITY",
+            "name": "Agility"
+          },
+          "value": 454,
+          "display": {
+            "display_string": "+454 Agility",
+            "color": {
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 1
+            }
+          }
+        },
+        {
+          "type": {
+            "type": "INTELLECT",
+            "name": "Intellect"
+          },
+          "value": 454,
+          "is_negated": true,
+          "display": {
+            "display_string": "+454 Intellect",
+            "color": {
+              "r": 128,
+              "g": 128,
+              "b": 128,
+              "a": 1
+            }
+          }
+        },
+        {
+          "type": {
+            "type": "STAMINA",
+            "name": "Stamina"
+          },
+          "value": 1175,
+          "display": {
+            "display_string": "+1,175 Stamina",
+            "color": {
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 1
+            }
+          }
+        },
+        {
+          "type": {
+            "type": "CRIT_RATING",
+            "name": "Critical Strike"
+          },
+          "value": 210,
+          "is_equip_bonus": true,
+          "display": {
+            "display_string": "+210 Critical Strike",
+            "color": {
+              "r": 0,
+              "g": 255,
+              "b": 0,
+              "a": 1
+            }
+          }
+        },
+        {
+          "type": {
+            "type": "VERSATILITY",
+            "name": "Versatility"
+          },
+          "value": 526,
+          "is_equip_bonus": true,
+          "display": {
+            "display_string": "+526 Versatility",
+            "color": {
+              "r": 0,
+              "g": 255,
+              "b": 0,
+              "a": 1
+            }
+          }
+        },
+        {
+          "type": {
+            "type": "COMBAT_RATING_AVOIDANCE",
+            "name": "Avoidance"
+          },
+          "value": 316,
+          "is_equip_bonus": true,
+          "display": {
+            "display_string": "+316 Avoidance",
+            "color": {
+              "r": 0,
+              "g": 255,
+              "b": 0,
+              "a": 1
+            }
+          }
+        }
+      ],
+      "sell_price": {
+        "value": 892684,
+        "display_strings": {
+          "header": "Sell Price:",
+          "gold": "89",
+          "silver": "26",
+          "copper": "84"
+        }
+      },
+      "requirements": {
+        "level": {
+          "value": 70,
+          "display_string": "Requires Level 70"
+        },
+        "playable_classes": {
+          "links": [
+            {
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/playable-class/10?namespace=static-10.0.5_47621-us"
+              },
+              "name": "Monk",
+              "id": 10
+            }
+          ],
+          "display_string": "Classes: Monk"
+        }
+      },
+      "set": {
+        "item_set": {
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-set/1532?namespace=static-10.0.5_47621-us"
+          },
+          "name": "Wrappings of the Waking Fist",
+          "id": 1532
+        },
+        "items": [
+          {
+            "item": {
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/item/200360?namespace=static-10.0.5_47621-us"
+              },
+              "name": "Chestwrap of the Waking Fist",
+              "id": 200360
+            },
+            "is_equipped": true
+          },
+          {
+            "item": {
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/item/200362?namespace=static-10.0.5_47621-us"
+              },
+              "name": "Palms of the Waking Fist",
+              "id": 200362
+            },
+            "is_equipped": true
+          },
+          {
+            "item": {
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/item/200363?namespace=static-10.0.5_47621-us"
+              },
+              "name": "Gaze of the Waking Fist",
+              "id": 200363
+            }
+          },
+          {
+            "item": {
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/item/200364?namespace=static-10.0.5_47621-us"
+              },
+              "name": "Legguards of the Waking Fist",
+              "id": 200364
+            },
+            "is_equipped": true
+          },
+          {
+            "item": {
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/item/200365?namespace=static-10.0.5_47621-us"
+              },
+              "name": "Mantle of the Waking Fist",
+              "id": 200365
+            },
+            "is_equipped": true
+          }
+        ],
+        "effects": [
+          {
+            "display_string": "Set: Hitting an enemy with Tiger Palm or Spinning Crane Kick grants Brewmaster's Rhythm, increasing damage dealt and reducing damage taken by 1% for 15 sec, stacking up to 4 times.",
+            "required_count": 2,
+            "is_active": true
+          },
+          {
+            "display_string": "Set: For each stack of Brewmaster's Rhythm, Purifying Brew clears 3% more of your damage delayed with Stagger.",
+            "required_count": 4,
+            "is_active": true
+          }
+        ],
+        "display_string": "Wrappings of the Waking Fist (4/5)"
+      },
+      "level": {
+        "value": 411,
+        "display_string": "Item Level 411"
+      },
+      "transmog": {
+        "item": {
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item/188912?namespace=static-10.0.5_47621-us"
+          },
+          "name": "Cuirass of the Grand Upwelling",
+          "id": 188912
+        },
+        "display_string": "Transmogrified to:\nCuirass of the Grand Upwelling",
+        "item_modified_appearance_id": 166308
+      },
+      "durability": {
+        "value": 165,
+        "display_string": "Durability 165 / 165"
+      },
+      "name_description": {
+        "display_string": "Mythic",
+        "color": {
+          "r": 0,
+          "g": 255,
+          "b": 0,
+          "a": 1
+        }
+      }
+    },
+    {
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/195501?namespace=static-10.0.5_47621-us"
+        },
+        "id": 195501
+      },
+      "slot": {
+        "type": "WAIST",
+        "name": "Waist"
+      },
+      "quantity": 1,
+      "context": 5,
+      "bonus_list": [
+        41,
+        7936,
+        8825,
+        8818,
+        7980,
+        1485,
+        8767
+      ],
+      "quality": {
+        "type": "EPIC",
+        "name": "Epic"
+      },
+      "name": "Fused Shale Waistband",
+      "modified_appearance_id": 181658,
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/195501?namespace=static-10.0.5_47621-us"
+        },
+        "id": 195501
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-10.0.5_47621-us"
+        },
+        "name": "Armor",
+        "id": 4
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-10.0.5_47621-us"
+        },
+        "name": "Leather",
+        "id": 2
+      },
+      "inventory_type": {
+        "type": "WAIST",
+        "name": "Waist"
+      },
+      "binding": {
+        "type": "ON_ACQUIRE",
+        "name": "Binds when picked up"
+      },
+      "armor": {
+        "value": 280,
+        "display": {
+          "display_string": "280 Armor",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      "stats": [
+        {
+          "type": {
+            "type": "AGILITY",
+            "name": "Agility"
+          },
+          "value": 313,
+          "display": {
+            "display_string": "+313 Agility",
+            "color": {
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 1
+            }
+          }
+        },
+        {
+          "type": {
+            "type": "INTELLECT",
+            "name": "Intellect"
+          },
+          "value": 313,
+          "is_negated": true,
+          "display": {
+            "display_string": "+313 Intellect",
+            "color": {
+              "r": 128,
+              "g": 128,
+              "b": 128,
+              "a": 1
+            }
+          }
+        },
+        {
+          "type": {
+            "type": "STAMINA",
+            "name": "Stamina"
+          },
+          "value": 782,
+          "display": {
+            "display_string": "+782 Stamina",
+            "color": {
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 1
+            }
+          }
+        },
+        {
+          "type": {
+            "type": "VERSATILITY",
+            "name": "Versatility"
+          },
+          "value": 345,
+          "is_equip_bonus": true,
+          "display": {
+            "display_string": "+345 Versatility",
+            "color": {
+              "r": 0,
+              "g": 255,
+              "b": 0,
+              "a": 1
+            }
+          }
+        },
+        {
+          "type": {
+            "type": "MASTERY_RATING",
+            "name": "Mastery"
+          },
+          "value": 181,
+          "is_equip_bonus": true,
+          "display": {
+            "display_string": "+181 Mastery",
+            "color": {
+              "r": 0,
+              "g": 255,
+              "b": 0,
+              "a": 1
+            }
+          }
+        },
+        {
+          "type": {
+            "type": "COMBAT_RATING_LIFESTEAL",
+            "name": "Leech"
+          },
+          "value": 226,
+          "is_equip_bonus": true,
+          "display": {
+            "display_string": "+226 Leech",
+            "color": {
+              "r": 0,
+              "g": 255,
+              "b": 0,
+              "a": 1
+            }
+          }
+        }
+      ],
+      "sell_price": {
+        "value": 434703,
+        "display_strings": {
+          "header": "Sell Price:",
+          "gold": "43",
+          "silver": "47",
+          "copper": "3"
+        }
+      },
+      "requirements": {
+        "level": {
+          "value": 70,
+          "display_string": "Requires Level 70"
+        }
+      },
+      "level": {
+        "value": 402,
+        "display_string": "Item Level 402"
+      },
+      "transmog": {
+        "item": {
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item/188915?namespace=static-10.0.5_47621-us"
+          },
+          "name": "Waistwrap of the Grand Upwelling",
+          "id": 188915
+        },
+        "display_string": "Transmogrified to:\nWaistwrap of the Grand Upwelling",
+        "item_modified_appearance_id": 168574
+      },
+      "durability": {
+        "value": 54,
+        "display_string": "Durability 54 / 55"
+      },
+      "name_description": {
+        "display_string": "Heroic",
+        "color": {
+          "r": 0,
+          "g": 255,
+          "b": 0,
+          "a": 1
+        }
+      }
+    },
+    {
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/200364?namespace=static-10.0.5_47621-us"
+        },
+        "id": 200364
+      },
+      "enchantments": [
+        {
+          "display_string": "Enchanted: Fierce Armor Kit |A:Professions-Icon-Quality-Tier3-Small:20:20|a",
+          "source_item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/193565?namespace=static-10.0.5_47621-us"
+            },
+            "name": "Fierce Armor Kit",
+            "id": 193565
+          },
+          "enchantment_id": 6490,
+          "enchantment_slot": {
+            "id": 0,
+            "type": "PERMANENT"
+          }
+        }
+      ],
+      "slot": {
+        "type": "LEGS",
+        "name": "Legs"
+      },
+      "quantity": 1,
+      "context": 35,
+      "bonus_list": [
+        6652,
+        8827,
+        8973,
+        7977,
+        1498,
+        8767
+      ],
+      "quality": {
+        "type": "EPIC",
+        "name": "Epic"
+      },
+      "name": "Legguards of the Waking Fist",
+      "modified_appearance_id": 182646,
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/200364?namespace=static-10.0.5_47621-us"
+        },
+        "id": 200364
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-10.0.5_47621-us"
+        },
+        "name": "Armor",
+        "id": 4
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-10.0.5_47621-us"
+        },
+        "name": "Leather",
+        "id": 2
+      },
+      "inventory_type": {
+        "type": "LEGS",
+        "name": "Legs"
+      },
+      "binding": {
+        "type": "ON_ACQUIRE",
+        "name": "Binds when picked up"
+      },
+      "armor": {
+        "value": 471,
+        "display": {
+          "display_string": "471 Armor",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      "stats": [
+        {
+          "type": {
+            "type": "AGILITY",
+            "name": "Agility"
+          },
+          "value": 471,
+          "display": {
+            "display_string": "+471 Agility",
+            "color": {
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 1
+            }
+          }
+        },
+        {
+          "type": {
+            "type": "INTELLECT",
+            "name": "Intellect"
+          },
+          "value": 471,
+          "is_negated": true,
+          "display": {
+            "display_string": "+471 Intellect",
+            "color": {
+              "r": 128,
+              "g": 128,
+              "b": 128,
+              "a": 1
+            }
+          }
+        },
+        {
+          "type": {
+            "type": "STAMINA",
+            "name": "Stamina"
+          },
+          "value": 1237,
+          "display": {
+            "display_string": "+1,237 Stamina",
+            "color": {
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 1
+            }
+          }
+        },
+        {
+          "type": {
+            "type": "VERSATILITY",
+            "name": "Versatility"
+          },
+          "value": 537,
+          "is_equip_bonus": true,
+          "display": {
+            "display_string": "+537 Versatility",
+            "color": {
+              "r": 0,
+              "g": 255,
+              "b": 0,
+              "a": 1
+            }
+          }
+        },
+        {
+          "type": {
+            "type": "MASTERY_RATING",
+            "name": "Mastery"
+          },
+          "value": 215,
+          "is_equip_bonus": true,
+          "display": {
+            "display_string": "+215 Mastery",
+            "color": {
+              "r": 0,
+              "g": 255,
+              "b": 0,
+              "a": 1
+            }
+          }
+        }
+      ],
+      "sell_price": {
+        "value": 843426,
+        "display_strings": {
+          "header": "Sell Price:",
+          "gold": "84",
+          "silver": "34",
+          "copper": "26"
+        }
+      },
+      "requirements": {
+        "level": {
+          "value": 70,
+          "display_string": "Requires Level 70"
+        },
+        "playable_classes": {
+          "links": [
+            {
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/playable-class/10?namespace=static-10.0.5_47621-us"
+              },
+              "name": "Monk",
+              "id": 10
+            }
+          ],
+          "display_string": "Classes: Monk"
+        }
+      },
+      "set": {
+        "item_set": {
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-set/1532?namespace=static-10.0.5_47621-us"
+          },
+          "name": "Wrappings of the Waking Fist",
+          "id": 1532
+        },
+        "items": [
+          {
+            "item": {
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/item/200360?namespace=static-10.0.5_47621-us"
+              },
+              "name": "Chestwrap of the Waking Fist",
+              "id": 200360
+            },
+            "is_equipped": true
+          },
+          {
+            "item": {
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/item/200362?namespace=static-10.0.5_47621-us"
+              },
+              "name": "Palms of the Waking Fist",
+              "id": 200362
+            },
+            "is_equipped": true
+          },
+          {
+            "item": {
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/item/200363?namespace=static-10.0.5_47621-us"
+              },
+              "name": "Gaze of the Waking Fist",
+              "id": 200363
+            }
+          },
+          {
+            "item": {
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/item/200364?namespace=static-10.0.5_47621-us"
+              },
+              "name": "Legguards of the Waking Fist",
+              "id": 200364
+            },
+            "is_equipped": true
+          },
+          {
+            "item": {
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/item/200365?namespace=static-10.0.5_47621-us"
+              },
+              "name": "Mantle of the Waking Fist",
+              "id": 200365
+            },
+            "is_equipped": true
+          }
+        ],
+        "effects": [
+          {
+            "display_string": "Set: Hitting an enemy with Tiger Palm or Spinning Crane Kick grants Brewmaster's Rhythm, increasing damage dealt and reducing damage taken by 1% for 15 sec, stacking up to 4 times.",
+            "required_count": 2,
+            "is_active": true
+          },
+          {
+            "display_string": "Set: For each stack of Brewmaster's Rhythm, Purifying Brew clears 3% more of your damage delayed with Stagger.",
+            "required_count": 4,
+            "is_active": true
+          }
+        ],
+        "display_string": "Wrappings of the Waking Fist (4/5)"
+      },
+      "level": {
+        "value": 415,
+        "display_string": "Item Level 415"
+      },
+      "transmog": {
+        "item": {
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item/188911?namespace=static-10.0.5_47621-us"
+          },
+          "name": "Legguards of the Grand Upwelling",
+          "id": 188911
+        },
+        "display_string": "Transmogrified to:\nLegguards of the Grand Upwelling",
+        "item_modified_appearance_id": 166304
+      },
+      "durability": {
+        "value": 119,
+        "display_string": "Durability 119 / 120"
+      },
+      "name_description": {
+        "display_string": "Mythic",
+        "color": {
+          "r": 0,
+          "g": 255,
+          "b": 0,
+          "a": 1
+        }
+      }
+    },
+    {
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/200739?namespace=static-10.0.5_47621-us"
+        },
+        "id": 200739
+      },
+      "enchantments": [
+        {
+          "display_string": "Enchanted: Plainsrunner's Breeze |A:Professions-Icon-Quality-Tier2-Small:20:20|a",
+          "enchantment_id": 6606,
+          "enchantment_slot": {
+            "id": 0,
+            "type": "PERMANENT"
+          }
+        }
+      ],
+      "slot": {
+        "type": "FEET",
+        "name": "Feet"
+      },
+      "quantity": 1,
+      "context": 81,
+      "bonus_list": [
+        8821,
+        8818,
+        6652,
+        1478,
+        8767
+      ],
+      "quality": {
+        "type": "EPIC",
+        "name": "Epic"
+      },
+      "name": "Stony Cragwalkers",
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/200739?namespace=static-10.0.5_47621-us"
+        },
+        "id": 200739
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-10.0.5_47621-us"
+        },
+        "name": "Armor",
+        "id": 4
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-10.0.5_47621-us"
+        },
+        "name": "Leather",
+        "id": 2
+      },
+      "inventory_type": {
+        "type": "FEET",
+        "name": "Feet"
+      },
+      "binding": {
+        "type": "ON_ACQUIRE",
+        "name": "Binds when picked up"
+      },
+      "armor": {
+        "value": 298,
+        "display": {
+          "display_string": "298 Armor",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      "stats": [
+        {
+          "type": {
+            "type": "AGILITY",
+            "name": "Agility"
+          },
+          "value": 293,
+          "display": {
+            "display_string": "+293 Agility",
+            "color": {
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 1
+            }
+          }
+        },
+        {
+          "type": {
+            "type": "INTELLECT",
+            "name": "Intellect"
+          },
+          "value": 293,
+          "is_negated": true,
+          "display": {
+            "display_string": "+293 Intellect",
+            "color": {
+              "r": 128,
+              "g": 128,
+              "b": 128,
+              "a": 1
+            }
+          }
+        },
+        {
+          "type": {
+            "type": "STAMINA",
+            "name": "Stamina"
+          },
+          "value": 704,
+          "display": {
+            "display_string": "+704 Stamina",
+            "color": {
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 1
+            }
+          }
+        },
+        {
+          "type": {
+            "type": "CRIT_RATING",
+            "name": "Critical Strike"
+          },
+          "value": 156,
+          "is_equip_bonus": true,
+          "display": {
+            "display_string": "+156 Critical Strike",
+            "color": {
+              "r": 0,
+              "g": 255,
+              "b": 0,
+              "a": 1
+            }
+          }
+        },
+        {
+          "type": {
+            "type": "VERSATILITY",
+            "name": "Versatility"
+          },
+          "value": 351,
+          "is_equip_bonus": true,
+          "display": {
+            "display_string": "+351 Versatility",
+            "color": {
+              "r": 0,
+              "g": 255,
+              "b": 0,
+              "a": 1
+            }
+          }
+        }
+      ],
+      "sell_price": {
+        "value": 678280,
+        "display_strings": {
+          "header": "Sell Price:",
+          "gold": "67",
+          "silver": "82",
+          "copper": "80"
+        }
+      },
+      "requirements": {
+        "level": {
+          "value": 70,
+          "display_string": "Requires Level 70"
+        }
+      },
+      "level": {
+        "value": 395,
+        "display_string": "Item Level 395"
+      },
+      "transmog": {
+        "item": {
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item/188917?namespace=static-10.0.5_47621-us"
+          },
+          "name": "Footwraps of the Grand Upwelling",
+          "id": 188917
+        },
+        "display_string": "Transmogrified to:\nFootwraps of the Grand Upwelling",
+        "item_modified_appearance_id": 166322
+      },
+      "durability": {
+        "value": 80,
+        "display_string": "Durability 80 / 80"
+      }
+    },
+    {
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/193419?namespace=static-10.0.5_47621-us"
+        },
+        "id": 193419
+      },
+      "enchantments": [
+        {
+          "display_string": "Enchanted: +200 Speed |A:Professions-Icon-Quality-Tier3-Small:20:20|a",
+          "enchantment_id": 6586,
+          "enchantment_slot": {
+            "id": 0,
+            "type": "PERMANENT"
+          }
+        }
+      ],
+      "sockets": [
+        {
+          "socket_type": {
+            "type": "PRISMATIC",
+            "name": "Prismatic Socket"
+          },
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/192932?namespace=static-10.0.5_47621-us"
+            },
+            "name": "Radiant Malygite",
+            "id": 192932
+          },
+          "display_string": "+70 Versatility and +33 Critical Strike ",
+          "media": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/media/item/192932?namespace=static-10.0.5_47621-us"
+            },
+            "id": 192932
+          }
+        }
+      ],
+      "slot": {
+        "type": "WRIST",
+        "name": "Wrist"
+      },
+      "quantity": 1,
+      "context": 13,
+      "bonus_list": [
+        8836,
+        8840,
+        8902,
+        8780,
+        8802,
+        8845,
+        8795
+      ],
+      "quality": {
+        "type": "EPIC",
+        "name": "Epic"
+      },
+      "name": "Life-Bound Bindings",
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/193419?namespace=static-10.0.5_47621-us"
+        },
+        "id": 193419
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-10.0.5_47621-us"
+        },
+        "name": "Armor",
+        "id": 4
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-10.0.5_47621-us"
+        },
+        "name": "Leather",
+        "id": 2
+      },
+      "inventory_type": {
+        "type": "WRIST",
+        "name": "Wrist"
+      },
+      "binding": {
+        "type": "ON_ACQUIRE",
+        "name": "Binds when picked up"
+      },
+      "armor": {
+        "value": 253,
+        "display": {
+          "display_string": "253 Armor",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      "stats": [
+        {
+          "type": {
+            "type": "AGILITY",
+            "name": "Agility"
+          },
+          "value": 241,
+          "display": {
+            "display_string": "+241 Agility",
+            "color": {
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 1
+            }
+          }
+        },
+        {
+          "type": {
+            "type": "INTELLECT",
+            "name": "Intellect"
+          },
+          "value": 241,
+          "is_negated": true,
+          "display": {
+            "display_string": "+241 Intellect",
+            "color": {
+              "r": 128,
+              "g": 128,
+              "b": 128,
+              "a": 1
+            }
+          }
+        },
+        {
+          "type": {
+            "type": "STAMINA",
+            "name": "Stamina"
+          },
+          "value": 609,
+          "display": {
+            "display_string": "+609 Stamina",
+            "color": {
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 1
+            }
+          }
+        },
+        {
+          "type": {
+            "type": "CRIT_RATING",
+            "name": "Critical Strike"
+          },
+          "value": 201,
+          "is_equip_bonus": true,
+          "display": {
+            "display_string": "+201 Critical Strike",
+            "color": {
+              "r": 0,
+              "g": 255,
+              "b": 0,
+              "a": 1
+            }
+          }
+        },
+        {
+          "type": {
+            "type": "VERSATILITY",
+            "name": "Versatility"
+          },
+          "value": 201,
+          "is_equip_bonus": true,
+          "display": {
+            "display_string": "+201 Versatility",
+            "color": {
+              "r": 0,
+              "g": 255,
+              "b": 0,
+              "a": 1
+            }
+          }
+        }
+      ],
+      "sell_price": {
+        "value": 443427,
+        "display_strings": {
+          "header": "Sell Price:",
+          "gold": "44",
+          "silver": "34",
+          "copper": "27"
+        }
+      },
+      "requirements": {
+        "level": {
+          "value": 70,
+          "display_string": "Requires Level 70"
+        }
+      },
+      "level": {
+        "value": 405,
+        "display_string": "Item Level 405"
+      },
+      "durability": {
+        "value": 55,
+        "display_string": "Durability 55 / 55"
+      },
+      "modified_crafting_stat": [
+        {
+          "id": 36,
+          "type": "HASTE_RATING",
+          "name": "Haste"
+        },
+        {
+          "id": 32,
+          "type": "CRIT_RATING",
+          "name": "Critical Strike"
+        }
+      ]
+    },
+    {
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/200362?namespace=static-10.0.5_47621-us"
+        },
+        "id": 200362
+      },
+      "slot": {
+        "type": "HANDS",
+        "name": "Hands"
+      },
+      "quantity": 1,
+      "context": 33,
+      "bonus_list": [
+        6652,
+        8971,
+        7977,
+        8829,
+        1485
+      ],
+      "quality": {
+        "type": "EPIC",
+        "name": "Epic"
+      },
+      "name": "Palms of the Waking Fist",
+      "modified_appearance_id": 182637,
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/200362?namespace=static-10.0.5_47621-us"
+        },
+        "id": 200362
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-10.0.5_47621-us"
+        },
+        "name": "Armor",
+        "id": 4
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-10.0.5_47621-us"
+        },
+        "name": "Leather",
+        "id": 2
+      },
+      "inventory_type": {
+        "type": "HAND",
+        "name": "Hands"
+      },
+      "binding": {
+        "type": "ON_ACQUIRE",
+        "name": "Binds when picked up"
+      },
+      "armor": {
+        "value": 290,
+        "display": {
+          "display_string": "290 Armor",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      "stats": [
+        {
+          "type": {
+            "type": "AGILITY",
+            "name": "Agility"
+          },
+          "value": 331,
+          "display": {
+            "display_string": "+331 Agility",
+            "color": {
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 1
+            }
+          }
+        },
+        {
+          "type": {
+            "type": "INTELLECT",
+            "name": "Intellect"
+          },
+          "value": 331,
+          "is_negated": true,
+          "display": {
+            "display_string": "+331 Intellect",
+            "color": {
+              "r": 128,
+              "g": 128,
+              "b": 128,
+              "a": 1
+            }
+          }
+        },
+        {
+          "type": {
+            "type": "STAMINA",
+            "name": "Stamina"
+          },
+          "value": 846,
+          "display": {
+            "display_string": "+846 Stamina",
+            "color": {
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 1
+            }
+          }
+        },
+        {
+          "type": {
+            "type": "CRIT_RATING",
+            "name": "Critical Strike"
+          },
+          "value": 164,
+          "is_equip_bonus": true,
+          "display": {
+            "display_string": "+164 Critical Strike",
+            "color": {
+              "r": 0,
+              "g": 255,
+              "b": 0,
+              "a": 1
+            }
+          }
+        },
+        {
+          "type": {
+            "type": "MASTERY_RATING",
+            "name": "Mastery"
+          },
+          "value": 380,
+          "is_equip_bonus": true,
+          "display": {
+            "display_string": "+380 Mastery",
+            "color": {
+              "r": 0,
+              "g": 255,
+              "b": 0,
+              "a": 1
+            }
+          }
+        }
+      ],
+      "sell_price": {
+        "value": 451218,
+        "display_strings": {
+          "header": "Sell Price:",
+          "gold": "45",
+          "silver": "12",
+          "copper": "18"
+        }
+      },
+      "requirements": {
+        "level": {
+          "value": 70,
+          "display_string": "Requires Level 70"
+        },
+        "playable_classes": {
+          "links": [
+            {
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/playable-class/10?namespace=static-10.0.5_47621-us"
+              },
+              "name": "Monk",
+              "id": 10
+            }
+          ],
+          "display_string": "Classes: Monk"
+        }
+      },
+      "set": {
+        "item_set": {
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-set/1532?namespace=static-10.0.5_47621-us"
+          },
+          "name": "Wrappings of the Waking Fist",
+          "id": 1532
+        },
+        "items": [
+          {
+            "item": {
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/item/200360?namespace=static-10.0.5_47621-us"
+              },
+              "name": "Chestwrap of the Waking Fist",
+              "id": 200360
+            },
+            "is_equipped": true
+          },
+          {
+            "item": {
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/item/200362?namespace=static-10.0.5_47621-us"
+              },
+              "name": "Palms of the Waking Fist",
+              "id": 200362
+            },
+            "is_equipped": true
+          },
+          {
+            "item": {
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/item/200363?namespace=static-10.0.5_47621-us"
+              },
+              "name": "Gaze of the Waking Fist",
+              "id": 200363
+            }
+          },
+          {
+            "item": {
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/item/200364?namespace=static-10.0.5_47621-us"
+              },
+              "name": "Legguards of the Waking Fist",
+              "id": 200364
+            },
+            "is_equipped": true
+          },
+          {
+            "item": {
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/item/200365?namespace=static-10.0.5_47621-us"
+              },
+              "name": "Mantle of the Waking Fist",
+              "id": 200365
+            },
+            "is_equipped": true
+          }
+        ],
+        "effects": [
+          {
+            "display_string": "Set: Hitting an enemy with Tiger Palm or Spinning Crane Kick grants Brewmaster's Rhythm, increasing damage dealt and reducing damage taken by 1% for 15 sec, stacking up to 4 times.",
+            "required_count": 2,
+            "is_active": true
+          },
+          {
+            "display_string": "Set: For each stack of Brewmaster's Rhythm, Purifying Brew clears 3% more of your damage delayed with Stagger.",
+            "required_count": 4,
+            "is_active": true
+          }
+        ],
+        "display_string": "Wrappings of the Waking Fist (4/5)"
+      },
+      "level": {
+        "value": 408,
+        "display_string": "Item Level 408"
+      },
+      "transmog": {
+        "item": {
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item/188916?namespace=static-10.0.5_47621-us"
+          },
+          "name": "Grips of the Grand Upwelling",
+          "id": 188916
+        },
+        "display_string": "Transmogrified to:\nGrips of the Grand Upwelling",
+        "item_modified_appearance_id": 168577
+      },
+      "durability": {
+        "value": 54,
+        "display_string": "Durability 54 / 55"
+      },
+      "name_description": {
+        "display_string": "Mythic",
+        "color": {
+          "r": 0,
+          "g": 255,
+          "b": 0,
+          "a": 1
+        }
+      }
+    },
+    {
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/195480?namespace=static-10.0.5_47621-us"
+        },
+        "id": 195480
+      },
+      "enchantments": [
+        {
+          "display_string": "Enchanted: +82 Versatility |A:Professions-Icon-Quality-Tier3-Small:20:20|a",
+          "enchantment_id": 6568,
+          "enchantment_slot": {
+            "id": 0,
+            "type": "PERMANENT"
+          }
+        }
+      ],
+      "slot": {
+        "type": "FINGER_1",
+        "name": "Ring 1"
+      },
+      "quantity": 1,
+      "context": 3,
+      "bonus_list": [
+        6652,
+        7937,
+        7979,
+        1472,
+        8767
+      ],
+      "quality": {
+        "type": "EPIC",
+        "name": "Epic"
+      },
+      "name": "Seal of Diurna's Chosen",
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/195480?namespace=static-10.0.5_47621-us"
+        },
+        "id": 195480
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-10.0.5_47621-us"
+        },
+        "name": "Armor",
+        "id": 4
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-10.0.5_47621-us"
+        },
+        "name": "Miscellaneous",
+        "id": 0
+      },
+      "inventory_type": {
+        "type": "FINGER",
+        "name": "Finger"
+      },
+      "binding": {
+        "type": "ON_ACQUIRE",
+        "name": "Binds when picked up"
+      },
+      "unique_equipped": "Unique-Equipped",
+      "stats": [
+        {
+          "type": {
+            "type": "STAMINA",
+            "name": "Stamina"
+          },
+          "value": 528,
+          "display": {
+            "display_string": "+528 Stamina",
+            "color": {
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 1
+            }
+          }
+        },
+        {
+          "type": {
+            "type": "CRIT_RATING",
+            "name": "Critical Strike"
+          },
+          "value": 245,
+          "is_equip_bonus": true,
+          "display": {
+            "display_string": "+245 Critical Strike",
+            "color": {
+              "r": 0,
+              "g": 255,
+              "b": 0,
+              "a": 1
+            }
+          }
+        },
+        {
+          "type": {
+            "type": "VERSATILITY",
+            "name": "Versatility"
+          },
+          "value": 742,
+          "is_equip_bonus": true,
+          "display": {
+            "display_string": "+742 Versatility",
+            "color": {
+              "r": 0,
+              "g": 255,
+              "b": 0,
+              "a": 1
+            }
+          }
+        }
+      ],
+      "spells": [
+        {
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/394452?namespace=static-10.0.5_47621-us"
+            },
+            "name": "Broodkeeper's Blaze",
+            "id": 394452
+          },
+          "description": "Equip: Dealing Fire damage has a chance to ignite your enemies, burning them for an additional 4,858 damage every 2 seconds.\r\n\r\n"
+        }
+      ],
+      "sell_price": {
+        "value": 539011,
+        "display_strings": {
+          "header": "Sell Price:",
+          "gold": "53",
+          "silver": "90",
+          "copper": "11"
+        }
+      },
+      "requirements": {
+        "level": {
+          "value": 70,
+          "display_string": "Requires Level 70"
+        }
+      },
+      "level": {
+        "value": 395,
+        "display_string": "Item Level 395"
+      },
+      "is_subclass_hidden": true
+    },
+    {
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/194082?namespace=static-10.0.5_47621-us"
+        },
+        "id": 194082
+      },
+      "enchantments": [
+        {
+          "display_string": "Enchanted: +82 Versatility |A:Professions-Icon-Quality-Tier3-Small:20:20|a",
+          "enchantment_id": 6568,
+          "enchantment_slot": {
+            "id": 0,
+            "type": "PERMANENT"
+          }
+        }
+      ],
+      "sockets": [
+        {
+          "socket_type": {
+            "type": "PRISMATIC",
+            "name": "Prismatic Socket"
+          },
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/192942?namespace=static-10.0.5_47621-us"
+            },
+            "name": "Stormy Malygite",
+            "id": 192942
+          },
+          "display_string": "+88 Versatility ",
+          "media": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/media/item/192942?namespace=static-10.0.5_47621-us"
+            },
+            "id": 192942
+          }
+        }
+      ],
+      "slot": {
+        "type": "FINGER_2",
+        "name": "Ring 2"
+      },
+      "quantity": 1,
+      "context": 13,
+      "bonus_list": [
+        8837,
+        8838,
+        4785,
+        8780,
+        8802,
+        8795,
+        8850
+      ],
+      "quality": {
+        "type": "EPIC",
+        "name": "Epic"
+      },
+      "name": "Band of New Beginnings",
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/194082?namespace=static-10.0.5_47621-us"
+        },
+        "id": 194082
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-10.0.5_47621-us"
+        },
+        "name": "Armor",
+        "id": 4
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-10.0.5_47621-us"
+        },
+        "name": "Miscellaneous",
+        "id": 0
+      },
+      "inventory_type": {
+        "type": "FINGER",
+        "name": "Finger"
+      },
+      "binding": {
+        "type": "ON_ACQUIRE",
+        "name": "Binds when picked up"
+      },
+      "unique_equipped": "Unique-Equipped",
+      "stats": [
+        {
+          "type": {
+            "type": "STAMINA",
+            "name": "Stamina"
+          },
+          "value": 565,
+          "display": {
+            "display_string": "+565 Stamina",
+            "color": {
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 1
+            }
+          }
+        },
+        {
+          "type": {
+            "type": "CRIT_RATING",
+            "name": "Critical Strike"
+          },
+          "value": 438,
+          "is_equip_bonus": true,
+          "display": {
+            "display_string": "+438 Critical Strike",
+            "color": {
+              "r": 0,
+              "g": 255,
+              "b": 0,
+              "a": 1
+            }
+          }
+        },
+        {
+          "type": {
+            "type": "VERSATILITY",
+            "name": "Versatility"
+          },
+          "value": 438,
+          "is_equip_bonus": true,
+          "display": {
+            "display_string": "+438 Versatility",
+            "color": {
+              "r": 0,
+              "g": 255,
+              "b": 0,
+              "a": 1
+            }
+          }
+        }
+      ],
+      "sell_price": {
+        "value": 25000,
+        "display_strings": {
+          "header": "Sell Price:",
+          "gold": "2",
+          "silver": "50",
+          "copper": "0"
+        }
+      },
+      "requirements": {
+        "level": {
+          "value": 70,
+          "display_string": "Requires Level 70"
+        }
+      },
+      "level": {
+        "value": 382,
+        "display_string": "Item Level 382"
+      },
+      "is_subclass_hidden": true,
+      "modified_crafting_stat": [
+        {
+          "id": 40,
+          "type": "VERSATILITY",
+          "name": "Versatility"
+        },
+        {
+          "id": 49,
+          "type": "MASTERY_RATING",
+          "name": "Mastery"
+        }
+      ]
+    },
+    {
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/194301?namespace=static-10.0.5_47621-us"
+        },
+        "id": 194301
+      },
+      "slot": {
+        "type": "TRINKET_1",
+        "name": "Trinket 1"
+      },
+      "quantity": 1,
+      "context": 3,
+      "bonus_list": [
+        6652,
+        7979,
+        1472,
+        8767
+      ],
+      "quality": {
+        "type": "EPIC",
+        "name": "Epic"
+      },
+      "name": "Whispering Incarnate Icon",
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/194301?namespace=static-10.0.5_47621-us"
+        },
+        "id": 194301
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-10.0.5_47621-us"
+        },
+        "name": "Armor",
+        "id": 4
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-10.0.5_47621-us"
+        },
+        "name": "Miscellaneous",
+        "id": 0
+      },
+      "inventory_type": {
+        "type": "TRINKET",
+        "name": "Trinket"
+      },
+      "binding": {
+        "type": "ON_ACQUIRE",
+        "name": "Binds when picked up"
+      },
+      "unique_equipped": "Unique-Equipped",
+      "stats": [
+        {
+          "type": {
+            "type": "AGILITY",
+            "name": "Agility"
+          },
+          "value": 372,
+          "display": {
+            "display_string": "+372 Agility",
+            "color": {
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 1
+            }
+          }
+        },
+        {
+          "type": {
+            "type": "INTELLECT",
+            "name": "Intellect"
+          },
+          "value": 372,
+          "is_negated": true,
+          "display": {
+            "display_string": "+372 Intellect",
+            "color": {
+              "r": 128,
+              "g": 128,
+              "b": 128,
+              "a": 1
+            }
+          }
+        },
+        {
+          "type": {
+            "type": "STRENGTH",
+            "name": "Strength"
+          },
+          "value": 372,
+          "is_negated": true,
+          "display": {
+            "display_string": "+372 Strength",
+            "color": {
+              "r": 128,
+              "g": 128,
+              "b": 128,
+              "a": 1
+            }
+          }
+        }
+      ],
+      "spells": [
+        {
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/377452?namespace=static-10.0.5_47621-us"
+            },
+            "name": "Whispering Incarnate Icon",
+            "id": 377452
+          },
+          "description": "Equip: Succumb to the Icon's whispers and become Infused with Earth, increasing your Versatility by 445. \r\n\r\nFighting alongside allies who are Infused with Fire or Frost has a chance to grant you 241 of their Infusion's stat for 12 sec.\r\n\r\nInfusion based on your current specialization."
+        }
+      ],
+      "sell_price": {
+        "value": 745611,
+        "display_strings": {
+          "header": "Sell Price:",
+          "gold": "74",
+          "silver": "56",
+          "copper": "11"
+        }
+      },
+      "requirements": {
+        "level": {
+          "value": 70,
+          "display_string": "Requires Level 70"
+        }
+      },
+      "level": {
+        "value": 395,
+        "display_string": "Item Level 395"
+      },
+      "is_subclass_hidden": true
+    },
+    {
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/191491?namespace=static-10.0.5_47621-us"
+        },
+        "id": 191491
+      },
+      "slot": {
+        "type": "TRINKET_2",
+        "name": "Trinket 2"
+      },
+      "quantity": 1,
+      "context": 13,
+      "bonus_list": [
+        8836,
+        8840,
+        8902,
+        8802,
+        8845
+      ],
+      "quality": {
+        "type": "EPIC",
+        "name": "Epic"
+      },
+      "name": "Sustaining Alchemist Stone",
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/191491?namespace=static-10.0.5_47621-us"
+        },
+        "id": 191491
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-10.0.5_47621-us"
+        },
+        "name": "Armor",
+        "id": 4
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-10.0.5_47621-us"
+        },
+        "name": "Miscellaneous",
+        "id": 0
+      },
+      "inventory_type": {
+        "type": "TRINKET",
+        "name": "Trinket"
+      },
+      "binding": {
+        "type": "ON_ACQUIRE",
+        "name": "Binds when picked up"
+      },
+      "limit_category": "Unique-Equipped: Alchemist Stone (1)",
+      "stats": [
+        {
+          "type": {
+            "type": "VERSATILITY",
+            "name": "Versatility"
+          },
+          "value": 510,
+          "is_equip_bonus": true,
+          "display": {
+            "display_string": "+510 Versatility",
+            "color": {
+              "r": 0,
+              "g": 255,
+              "b": 0,
+              "a": 1
+            }
+          }
+        }
+      ],
+      "spells": [
+        {
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/375844?namespace=static-10.0.5_47621-us"
+            },
+            "name": "Sustaining Alchemist Stone",
+            "id": 375844
+          },
+          "description": "Equip: Your spells and abilities have a chance to increase your Agility by 1,146 for 10 sec and extend the duration of your active phial by 60 sec."
+        }
+      ],
+      "sell_price": {
+        "value": 736675,
+        "display_strings": {
+          "header": "Sell Price:",
+          "gold": "73",
+          "silver": "66",
+          "copper": "75"
+        }
+      },
+      "requirements": {
+        "level": {
+          "value": 60,
+          "display_string": "Requires Level 60"
+        }
+      },
+      "description": "Can be used for transmutations in place of a Philosopher's Stone.",
+      "level": {
+        "value": 405,
+        "display_string": "Item Level 405"
+      },
+      "is_subclass_hidden": true
+    },
+    {
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/193629?namespace=static-10.0.5_47621-us"
+        },
+        "id": 193629
+      },
+      "enchantments": [
+        {
+          "display_string": "Enchanted: Regenerative Leech |A:Professions-Icon-Quality-Tier3-Small:20:20|a",
+          "enchantment_id": 6598,
+          "enchantment_slot": {
+            "id": 0,
+            "type": "PERMANENT"
+          }
+        }
+      ],
+      "slot": {
+        "type": "BACK",
+        "name": "Back"
+      },
+      "quantity": 1,
+      "context": 16,
+      "bonus_list": [
+        7977,
+        6652,
+        8822,
+        8819,
+        9144,
+        8965,
+        1611,
+        8767
+      ],
+      "quality": {
+        "type": "EPIC",
+        "name": "Epic"
+      },
+      "name": "Cloak of Lost Devotion",
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/193629?namespace=static-10.0.5_47621-us"
+        },
+        "id": 193629
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-10.0.5_47621-us"
+        },
+        "name": "Armor",
+        "id": 4
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-10.0.5_47621-us"
+        },
+        "name": "Cloth",
+        "id": 1
+      },
+      "inventory_type": {
+        "type": "CLOAK",
+        "name": "Back"
+      },
+      "binding": {
+        "type": "ON_ACQUIRE",
+        "name": "Binds when picked up"
+      },
+      "armor": {
+        "value": 184,
+        "display": {
+          "display_string": "184 Armor",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      "stats": [
+        {
+          "type": {
+            "type": "AGILITY",
+            "name": "Agility"
+          },
+          "value": 208,
+          "display": {
+            "display_string": "+208 Agility",
+            "color": {
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 1
+            }
+          }
+        },
+        {
+          "type": {
+            "type": "INTELLECT",
+            "name": "Intellect"
+          },
+          "value": 208,
+          "is_negated": true,
+          "display": {
+            "display_string": "+208 Intellect",
+            "color": {
+              "r": 128,
+              "g": 128,
+              "b": 128,
+              "a": 1
+            }
+          }
+        },
+        {
+          "type": {
+            "type": "STRENGTH",
+            "name": "Strength"
+          },
+          "value": 208,
+          "is_negated": true,
+          "display": {
+            "display_string": "+208 Strength",
+            "color": {
+              "r": 128,
+              "g": 128,
+              "b": 128,
+              "a": 1
+            }
+          }
+        },
+        {
+          "type": {
+            "type": "STAMINA",
+            "name": "Stamina"
+          },
+          "value": 490,
+          "display": {
+            "display_string": "+490 Stamina",
+            "color": {
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 1
+            }
+          }
+        },
+        {
+          "type": {
+            "type": "CRIT_RATING",
+            "name": "Critical Strike"
+          },
+          "value": 215,
+          "is_equip_bonus": true,
+          "display": {
+            "display_string": "+215 Critical Strike",
+            "color": {
+              "r": 0,
+              "g": 255,
+              "b": 0,
+              "a": 1
+            }
+          }
+        },
+        {
+          "type": {
+            "type": "HASTE_RATING",
+            "name": "Haste"
+          },
+          "value": 152,
+          "is_equip_bonus": true,
+          "display": {
+            "display_string": "+152 Haste",
+            "color": {
+              "r": 0,
+              "g": 255,
+              "b": 0,
+              "a": 1
+            }
+          }
+        }
+      ],
+      "sell_price": {
+        "value": 615373,
+        "display_strings": {
+          "header": "Sell Price:",
+          "gold": "61",
+          "silver": "53",
+          "copper": "73"
+        }
+      },
+      "requirements": {
+        "level": {
+          "value": 58,
+          "display_string": "Requires Level 58"
+        }
+      },
+      "level": {
+        "value": 389,
+        "display_string": "Item Level 389"
+      },
+      "transmog": {
+        "item": {
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item/188918?namespace=static-10.0.5_47621-us"
+          },
+          "name": "Drape of the Grand Upwelling",
+          "id": 188918
+        },
+        "display_string": "Transmogrified to:\nDrape of the Grand Upwelling",
+        "item_modified_appearance_id": 166326
+      },
+      "is_subclass_hidden": true,
+      "name_description": {
+        "display_string": "Mythic",
+        "color": {
+          "r": 0,
+          "g": 255,
+          "b": 0,
+          "a": 1
+        }
+      }
+    },
+    {
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/190507?namespace=static-10.0.5_47621-us"
+        },
+        "id": 190507
+      },
+      "enchantments": [
+        {
+          "display_string": "Enchanted: Sophic Devotion |A:Professions-Icon-Quality-Tier3-Small:20:20|a",
+          "enchantment_id": 6643,
+          "enchantment_slot": {
+            "id": 0,
+            "type": "PERMANENT"
+          }
+        },
+        {
+          "display_string": "Buzzing Rune",
+          "source_item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/194823?namespace=static-10.0.5_47621-us"
+            },
+            "name": "Buzzing Rune",
+            "id": 194823
+          },
+          "enchantment_id": 6514,
+          "enchantment_slot": {
+            "id": 1,
+            "type": "TEMPORARY"
+          }
+        }
+      ],
+      "slot": {
+        "type": "MAIN_HAND",
+        "name": "Main Hand"
+      },
+      "quantity": 1,
+      "context": 13,
+      "bonus_list": [
+        8836,
+        8840,
+        8902,
+        8802,
+        8846,
+        8795,
+        8796,
+        8960
+      ],
+      "quality": {
+        "type": "EPIC",
+        "name": "Epic"
+      },
+      "name": "Primal Molten Longsword",
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/190507?namespace=static-10.0.5_47621-us"
+        },
+        "id": 190507
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/2?namespace=static-10.0.5_47621-us"
+        },
+        "name": "Weapon",
+        "id": 2
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/2/item-subclass/7?namespace=static-10.0.5_47621-us"
+        },
+        "name": "Sword",
+        "id": 7
+      },
+      "inventory_type": {
+        "type": "WEAPON",
+        "name": "One-Hand"
+      },
+      "binding": {
+        "type": "ON_ACQUIRE",
+        "name": "Binds when picked up"
+      },
+      "limit_category": "Unique-Equipped: Embellished (2)",
+      "weapon": {
+        "damage": {
+          "min_value": 536,
+          "max_value": 895,
+          "display_string": "536 - 895 Damage",
+          "damage_class": {
+            "type": "PHYSICAL",
+            "name": "Physical"
+          }
+        },
+        "attack_speed": {
+          "value": 2600,
+          "display_string": "Speed 2.60"
+        },
+        "dps": {
+          "value": 275.1923,
+          "display_string": "(275.2 damage per second)"
+        }
+      },
+      "stats": [
+        {
+          "type": {
+            "type": "AGILITY",
+            "name": "Agility"
+          },
+          "value": 242,
+          "display": {
+            "display_string": "+242 Agility",
+            "color": {
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 1
+            }
+          }
+        },
+        {
+          "type": {
+            "type": "STRENGTH",
+            "name": "Strength"
+          },
+          "value": 242,
+          "is_negated": true,
+          "display": {
+            "display_string": "+242 Strength",
+            "color": {
+              "r": 128,
+              "g": 128,
+              "b": 128,
+              "a": 1
+            }
+          }
+        },
+        {
+          "type": {
+            "type": "STAMINA",
+            "name": "Stamina"
+          },
+          "value": 641,
+          "display": {
+            "display_string": "+641 Stamina",
+            "color": {
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 1
+            }
+          }
+        },
+        {
+          "type": {
+            "type": "CRIT_RATING",
+            "name": "Critical Strike"
+          },
+          "value": 191,
+          "is_equip_bonus": true,
+          "display": {
+            "display_string": "+191 Critical Strike",
+            "color": {
+              "r": 0,
+              "g": 255,
+              "b": 0,
+              "a": 1
+            }
+          }
+        },
+        {
+          "type": {
+            "type": "VERSATILITY",
+            "name": "Versatility"
+          },
+          "value": 191,
+          "is_equip_bonus": true,
+          "display": {
+            "display_string": "+191 Versatility",
+            "color": {
+              "r": 0,
+              "g": 255,
+              "b": 0,
+              "a": 1
+            }
+          }
+        }
+      ],
+      "spells": [
+        {
+          "spell": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/377708?namespace=static-10.0.5_47621-us"
+            },
+            "name": "Fang Adornments",
+            "id": 377708
+          },
+          "description": "Equip: Your attacks have a chance to be imbued with ferocity, dealing an additional 6,265 Physical damage."
+        }
+      ],
+      "sell_price": {
+        "value": 1297874,
+        "display_strings": {
+          "header": "Sell Price:",
+          "gold": "129",
+          "silver": "78",
+          "copper": "74"
+        }
+      },
+      "requirements": {
+        "level": {
+          "value": 70,
+          "display_string": "Requires Level 70"
+        }
+      },
+      "level": {
+        "value": 418,
+        "display_string": "Item Level 418"
+      },
+      "durability": {
+        "value": 107,
+        "display_string": "Durability 107 / 110"
+      },
+      "modified_crafting_stat": [
+        {
+          "id": 40,
+          "type": "VERSATILITY",
+          "name": "Versatility"
+        },
+        {
+          "id": 36,
+          "type": "HASTE_RATING",
+          "name": "Haste"
+        }
+      ]
+    },
+    {
+      "item": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/190507?namespace=static-10.0.5_47621-us"
+        },
+        "id": 190507
+      },
+      "enchantments": [
+        {
+          "display_string": "Enchanted: Frozen Devotion |A:Professions-Icon-Quality-Tier3-Small:20:20|a",
+          "enchantment_id": 6649,
+          "enchantment_slot": {
+            "id": 0,
+            "type": "PERMANENT"
+          }
+        },
+        {
+          "display_string": "Buzzing Rune",
+          "source_item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/194823?namespace=static-10.0.5_47621-us"
+            },
+            "name": "Buzzing Rune",
+            "id": 194823
+          },
+          "enchantment_id": 6514,
+          "enchantment_slot": {
+            "id": 1,
+            "type": "TEMPORARY"
+          }
+        }
+      ],
+      "slot": {
+        "type": "OFF_HAND",
+        "name": "Off Hand"
+      },
+      "quantity": 1,
+      "context": 13,
+      "bonus_list": [
+        8836,
+        8840,
+        8902,
+        8802,
+        8845,
+        8795
+      ],
+      "quality": {
+        "type": "EPIC",
+        "name": "Epic"
+      },
+      "name": "Primal Molten Longsword",
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/190507?namespace=static-10.0.5_47621-us"
+        },
+        "id": 190507
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/2?namespace=static-10.0.5_47621-us"
+        },
+        "name": "Weapon",
+        "id": 2
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/2/item-subclass/7?namespace=static-10.0.5_47621-us"
+        },
+        "name": "Sword",
+        "id": 7
+      },
+      "inventory_type": {
+        "type": "WEAPON",
+        "name": "One-Hand"
+      },
+      "binding": {
+        "type": "ON_ACQUIRE",
+        "name": "Binds when picked up"
+      },
+      "weapon": {
+        "damage": {
+          "min_value": 475,
+          "max_value": 793,
+          "display_string": "475 - 793 Damage",
+          "damage_class": {
+            "type": "PHYSICAL",
+            "name": "Physical"
+          }
+        },
+        "attack_speed": {
+          "value": 2600,
+          "display_string": "Speed 2.60"
+        },
+        "dps": {
+          "value": 243.84615,
+          "display_string": "(243.8 damage per second)"
+        }
+      },
+      "stats": [
+        {
+          "type": {
+            "type": "AGILITY",
+            "name": "Agility"
+          },
+          "value": 215,
+          "display": {
+            "display_string": "+215 Agility",
+            "color": {
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 1
+            }
+          }
+        },
+        {
+          "type": {
+            "type": "STRENGTH",
+            "name": "Strength"
+          },
+          "value": 215,
+          "is_negated": true,
+          "display": {
+            "display_string": "+215 Strength",
+            "color": {
+              "r": 128,
+              "g": 128,
+              "b": 128,
+              "a": 1
+            }
+          }
+        },
+        {
+          "type": {
+            "type": "STAMINA",
+            "name": "Stamina"
+          },
+          "value": 541,
+          "display": {
+            "display_string": "+541 Stamina",
+            "color": {
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 1
+            }
+          }
+        },
+        {
+          "type": {
+            "type": "CRIT_RATING",
+            "name": "Critical Strike"
+          },
+          "value": 178,
+          "is_equip_bonus": true,
+          "display": {
+            "display_string": "+178 Critical Strike",
+            "color": {
+              "r": 0,
+              "g": 255,
+              "b": 0,
+              "a": 1
+            }
+          }
+        },
+        {
+          "type": {
+            "type": "VERSATILITY",
+            "name": "Versatility"
+          },
+          "value": 178,
+          "is_equip_bonus": true,
+          "display": {
+            "display_string": "+178 Versatility",
+            "color": {
+              "r": 0,
+              "g": 255,
+              "b": 0,
+              "a": 1
+            }
+          }
+        }
+      ],
+      "sell_price": {
+        "value": 1286957,
+        "display_strings": {
+          "header": "Sell Price:",
+          "gold": "128",
+          "silver": "69",
+          "copper": "57"
+        }
+      },
+      "requirements": {
+        "level": {
+          "value": 70,
+          "display_string": "Requires Level 70"
+        }
+      },
+      "level": {
+        "value": 405,
+        "display_string": "Item Level 405"
+      },
+      "durability": {
+        "value": 110,
+        "display_string": "Durability 110 / 110"
+      },
+      "modified_crafting_stat": [
+        {
+          "id": 40,
+          "type": "VERSATILITY",
+          "name": "Versatility"
+        },
+        {
+          "id": 36,
+          "type": "HASTE_RATING",
+          "name": "Haste"
+        }
+      ]
+    }
+  ],
+  "equipped_item_sets": [
+    {
+      "item_set": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-set/1532?namespace=static-10.0.5_47621-us"
+        },
+        "name": "Wrappings of the Waking Fist",
+        "id": 1532
+      },
+      "items": [
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/200360?namespace=static-10.0.5_47621-us"
+            },
+            "name": "Chestwrap of the Waking Fist",
+            "id": 200360
+          },
+          "is_equipped": true
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/200362?namespace=static-10.0.5_47621-us"
+            },
+            "name": "Palms of the Waking Fist",
+            "id": 200362
+          },
+          "is_equipped": true
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/200363?namespace=static-10.0.5_47621-us"
+            },
+            "name": "Gaze of the Waking Fist",
+            "id": 200363
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/200364?namespace=static-10.0.5_47621-us"
+            },
+            "name": "Legguards of the Waking Fist",
+            "id": 200364
+          },
+          "is_equipped": true
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/200365?namespace=static-10.0.5_47621-us"
+            },
+            "name": "Mantle of the Waking Fist",
+            "id": 200365
+          },
+          "is_equipped": true
+        }
+      ],
+      "effects": [
+        {
+          "display_string": "Set: Hitting an enemy with Tiger Palm or Spinning Crane Kick grants Brewmaster's Rhythm, increasing damage dealt and reducing damage taken by 1% for 15 sec, stacking up to 4 times.",
+          "required_count": 2,
+          "is_active": true
+        },
+        {
+          "display_string": "Set: For each stack of Brewmaster's Rhythm, Purifying Brew clears 3% more of your damage delayed with Stagger.",
+          "required_count": 4,
+          "is_active": true
+        }
+      ],
+      "display_string": "Wrappings of the Waking Fist (4/5)"
+    }
+  ]
+}

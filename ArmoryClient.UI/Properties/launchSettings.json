@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "ArmoryClient.UI (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "ArmoryClient.UI (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
