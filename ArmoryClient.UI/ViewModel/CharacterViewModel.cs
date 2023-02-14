@@ -8,9 +8,11 @@ public class CharacterViewModel : ViewModelBase, ICharacterViewModel
 {
     public EquipmentViewModel EquipmentViewModel { get; set; }
     public AchievementViewModel AchievementViewModel { get; set; }
+    public string Name { get; private set; }
 
-    public Task LoadAsync()
+    public async Task LoadAsync(string name)
     {
-        throw new NotImplementedException();
+        Name = name;
+        await Task.Delay(0);
     }
 }

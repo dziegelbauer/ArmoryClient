@@ -15,7 +15,7 @@ namespace ArmoryClient.UI;
 /// </summary>
 public partial class App : Application
 {
-    private Window m_window;
+    private Window _mainWindow;
 
     /// <summary>
     ///     Initializes the singleton application object.  This is the first line of authored code
@@ -34,7 +34,7 @@ public partial class App : Application
     {
         var bootstrapper = new Bootstrapper();
         var container = bootstrapper.Bootstrap();
-        m_window = container.Resolve<MainWindow>();
-        m_window.Activate();
+        _mainWindow = container.Resolve<MainWindow>();
+        _mainWindow.Activate();
     }
 }

@@ -4,5 +4,6 @@ namespace ArmoryClient.UI.ViewModel.Interface;
 
 public interface ICharacterViewModel
 {
-    Task LoadAsync();
+    string Name { get; }
+    Task LoadAsync(string name);
 }

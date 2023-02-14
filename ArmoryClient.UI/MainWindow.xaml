@@ -10,7 +10,6 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:view="using:ArmoryClient.UI.View"
     mc:Ignorable="d">
-    
 
     <Grid x:Name="mainGrid" Loaded="MainGrid_OnLoaded">
         <Grid.ColumnDefinitions>
@@ -18,6 +17,12 @@
             <ColumnDefinition Width="Auto"/>
         </Grid.ColumnDefinitions>
         <view:SearchView Grid.Column="0" DataContext="{Binding SearchViewModel}"/>
-        <view:CharacterView Grid.Column="1"/>
+        <TabView Grid.Column="1" TabItemsSource="{Binding CharacterList}">
+            <TabView.TabItemTemplate>
+                <DataTemplate>
+                    <TabViewItem Header="{Binding Name}" />
+                </DataTemplate>
+            </TabView.TabItemTemplate>
+        </TabView>
     </Grid>
 </Window>
