@@ -1,11 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
+using ArmoryClient.Models;
 
 namespace ArmoryClient.Data.Repository;
+
 public interface IProfileRepository
 {
-    Task GetEquipment();
+    Task<CharacterEquipment?> GetEquipment(Region reg, string realmSlug, string character);
 }

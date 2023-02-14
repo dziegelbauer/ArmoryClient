@@ -12,20 +12,19 @@
 
     <StackPanel>
         <TextBlock Text="Region" FontSize="18" Margin="10 10 0 0"/>
-        <ComboBox FontSize="18" Margin="10 10 0 0">
-            <ComboBox.Items>
-                <ComboBoxItem Content="NA"/>
-                <ComboBoxItem Content="EU"/>
-                <ComboBoxItem Content="KR"/>
-                <ComboBoxItem Content="TW"/>
-            </ComboBox.Items>
-        </ComboBox>
+        <ComboBox FontSize="18" Margin="10 10 0 0" ItemsSource="{Binding RegionList}"
+                  SelectedValuePath="Id" DisplayMemberPath="DisplayMember"
+                  SelectedItem="{Binding SelectedRegion,Mode=TwoWay}"/>
+        
         <TextBlock Text="Realm" FontSize="18" Margin="10 10 0 0"/>
         <ComboBox ItemsSource="{Binding RealmList}" Margin="10 10 0 0" 
                   DisplayMemberPath="Name" SelectedValuePath="Id" FontSize="18" Width="180" SelectedItem="{Binding SelectedRealm,Mode=TwoWay}"/>
+        
         <TextBlock Text="Character" FontSize="18" Margin="10 10 0 0"/>
         <TextBox Text="{Binding SearchString,Mode=TwoWay}" FontSize="18" 
                  Margin="10 10 0 0" Width="180" HorizontalAlignment="Left"/>
-        <Button Content="Search" FontSize="18" Margin="10 10 0 0" Command="{Binding SearchCommand}"/>
+        
+        <Button Content="Search" FontSize="18" Margin="10 10 0 0" 
+                Command="{Binding SearchCommand}"/>
     </StackPanel>
 </UserControl>

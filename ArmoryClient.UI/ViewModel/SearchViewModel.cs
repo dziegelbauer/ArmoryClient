@@ -1,4 +1,4 @@
-﻿using System;
+﻿using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
 using System.Threading.Tasks;
@@ -14,22 +14,30 @@ namespace ArmoryClient.UI.ViewModel;
 
 public class SearchViewModel : ViewModelBase, ISearchViewModel
 {
+    private readonly IEventAggregator _eventAggregator;
     private readonly IStaticRepository _staticRepository;
 
     private string _searchString;
-    private readonly IEventAggregator _eventAggregator;
     private Realm _selectedRealm;
+    private LookupItemViewModel _selectedRegion;
 
     public SearchViewModel(IStaticRepository staticRepository, IEventAggregator eventAggregator)
     {
         _staticRepository = staticRepository;
         _eventAggregator = eventAggregator;
         RealmList = new ObservableCollection<Realm>();
+        RegionList = new ObservableCollection<LookupItemViewModel>();
+
+        foreach (var reg in new List<Region> { Region.NA, Region.EU, Region.KR, Region.TW })
+        {
+            RegionList.Add(new LookupItemViewModel((int)reg, reg.ToString()));
+        }
 
         SearchCommand = new DelegateCommand(OnSearchExecute, OnSearchCanExecute);
     }
 
     public ObservableCollection<Realm> RealmList { get; set; }
+    public ObservableCollection<LookupItemViewModel> RegionList { get; set; }
     public ICommand SearchCommand { get; }
 
     public Realm SelectedRealm
@@ -39,6 +47,7 @@ public class SearchViewModel : ViewModelBase, ISearchViewModel
         {
             _selectedRealm = value;
             OnPropertyChanged();
+            ((DelegateCommand)SearchCommand).RaiseCanExecuteChanged();
         }
     }
 
@@ -49,6 +58,18 @@ public class SearchViewModel : ViewModelBase, ISearchViewModel
         {
             _searchString = value;
             OnPropertyChanged();
+            ((DelegateCommand)SearchCommand).RaiseCanExecuteChanged();
+        }
+    }
+
+    public LookupItemViewModel SelectedRegion
+    {
+        get => _selectedRegion;
+        set
+        {
+            _selectedRegion = value;
+            OnPropertyChanged();
+            ((DelegateCommand)SearchCommand).RaiseCanExecuteChanged();
         }
     }
 
@@ -65,17 +86,19 @@ public class SearchViewModel : ViewModelBase, ISearchViewModel
 
     private bool OnSearchCanExecute()
     {
-        return true;
+        return !string.IsNullOrEmpty(_searchString)
+               && _selectedRealm is not null
+               && _selectedRegion is not null;
     }
 
     private void OnSearchExecute()
     {
         _eventAggregator.GetEvent<AfterSearchEvent>()
-            .Publish(new AfterSearchEventArgs()
+            .Publish(new AfterSearchEventArgs
             {
                 SearchName = _searchString,
                 SearchRealm = _selectedRealm.Slug,
-                SearchRegion = Region.NA,
+                SearchRegion = Region.NA
             });
     }
 }

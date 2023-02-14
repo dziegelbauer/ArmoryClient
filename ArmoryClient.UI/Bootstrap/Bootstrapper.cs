@@ -14,6 +14,7 @@ public class Bootstrapper
 
         builder.RegisterType<EventAggregator>().As<IEventAggregator>().SingleInstance();
         builder.RegisterType<StaticRepository>().As<IStaticRepository>();
+        builder.RegisterType<ProfileRepository>().As<IProfileRepository>();
         builder.RegisterType<SearchViewModel>().As<ISearchViewModel>();
         builder.RegisterType<CharacterViewModel>().As<ICharacterViewModel>();
         builder.RegisterType<MainViewModel>().AsSelf();
